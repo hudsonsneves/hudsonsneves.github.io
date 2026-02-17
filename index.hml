@@ -1,10 +1,11 @@
-<!DOCTYPE html>  
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
 <meta charset="UTF-8">
 <title>Hudson Neves | Gerente de Projetos</title>
 
 <style>
+
 body{
     background:#0b0b0b;
     color:#ffffff;
@@ -20,12 +21,23 @@ body{
     padding:40px 0;
 }
 
-h1{color:#ffffff;font-size:42px;}
-h2{color:#9b5cff;margin-top:40px;}
-p{color:#cfcfcf;line-height:1.6;}
-
 .header{
     padding:80px 0;
+}
+
+h1{
+    font-size:42px;
+    margin-bottom:10px;
+}
+
+h2{
+    color:#9b5cff;
+    margin-top:40px;
+}
+
+p{
+    color:#cfcfcf;
+    line-height:1.6;
 }
 
 .tag{
@@ -37,78 +49,48 @@ p{color:#cfcfcf;line-height:1.6;}
     font-size:14px;
 }
 
-a{
-    color:#9b5cff;
-    text-decoration:none;
-}
 </style>
 </head>
 
 <body>
 
-<div class="container header">
-<h1>Hudson Neves</h1>
-<p>Gerente de Projetos Sênior | PMO & Governança | PMP® | PSM I</p>
-
-<p>
-Gestão Ágil Híbrida | Scrum | Kanban | SAFe | PMBOK | UX & Produto
-</p>
-
-<p>
-<a href="https://www.linkedin.com/in/hudson-neves/" target="_blank">
-LinkedIn
-</a>
-</p>
-</div>
-
 <div class="container">
-<h2>Sobre</h2>
-<p>
-Profissional com mais de 20 anos em gestão de projetos estratégicos,
-PMO e governança em ambientes regulados, integrando práticas ágeis
-e preditivas para entrega de valor e previsibilidade executiva.
-</p>
 
-<h2>Agilidade Híbrida & SAFe</h2>
-<p>
-Aplicação prática de Scrum, Kanban e SAFe em ambientes corporativos,
-unindo governança institucional, planejamento estruturado e entrega iterativa.
-</p>
-
-<div>
-<span class="tag">Scrum</span>
-<span class="tag">Kanban</span>
-<span class="tag">SAFe</span>
-<span class="tag">PMBOK</span>
+<div class="header">
+<h1>Hudson Neves</h1>
+<p>Gerente de Projetos | Agile Híbrido | UX | Front-End React</p>
 </div>
 
-<h2>UX, Análise de Negócio & Front-end</h2>
+<h2>Sobre mim</h2>
 <p>
-Aperfeiçoamento contínuo em UX Strategy, engenharia de requisitos
-e desenvolvimento Front-end com React, fortalecendo a integração
-entre gestão, produto digital e experiência do usuário.
+Profissional com experiência em gestão de projetos, squads ágeis, UX, análise de requisitos e desenvolvimento front-end.
+Atuação com metodologias híbridas (PMBOK + Agile + SAFe), facilitando entregas estratégicas e transformação digital.
 </p>
 
-<div>
-<span class="tag">UX</span>
-<span class="tag">Figma</span>
-<span class="tag">React</span>
-<span class="tag">Análise de Requisitos</span>
-</div>
+<h2>Especialidades</h2>
+
+<div class="tag">Agile Híbrido</div>
+<div class="tag">SAFe</div>
+<div class="tag">Scrum</div>
+<div class="tag">UX</div>
+<div class="tag">Figma</div>
+<div class="tag">React Front-End</div>
+<div class="tag">Análise de Negócios</div>
+<div class="tag">Requisitos</div>
+<div class="tag">Jira</div>
+<div class="tag">Project</div>
+<div class="tag">Workspace</div>
+<div class="tag">GitHub</div>
 
 <h2>Ferramentas</h2>
-<div>
-<span class="tag">Jira</span>
-<span class="tag">Project</span>
-<span class="tag">Workspace</span>
-<span class="tag">Confluence</span>
-<span class="tag">ClickUp</span>
-<span class="tag">Bizagi</span>
-</div>
+<p>
+Jira, Confluence, Project, Bizagi, Trello, ClickUp, Office, Data Studio, Workspace, Planner.
+</p>
 
-<h2>Contato</h2>
-<p>Email: hudsonsneves@gmail.com</p>
-<p>Brasília - DF</p>
+<h2>Tecnologias</h2>
+<p>
+PHP, .NET, Java, Laravel, Cobol | MySQL, SQL Server, Oracle, DB2 | PowerBI, Microstrategy.
+</p>
 
 </div>
 
