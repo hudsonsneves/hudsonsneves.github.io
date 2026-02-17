@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Hudson Neves | Gerente de Projetos</title>
+
+<style>
+body{
+    background:#0b0b0b;
+    color:#ffffff;
+    font-family:Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+}
+
+.container{
+    width:90%;
+    max-width:1100px;
+    margin:auto;
+    padding:40px 0;
+}
+
+h1{color:#ffffff;font-size:42px;}
+h2{color:#9b5cff;margin-top:40px;}
+p{color:#cfcfcf;line-height:1.6;}
+
+.header{
+    padding:80px 0;
+}
+
+.tag{
+    background:#1a1a1a;
+    padding:8px 14px;
+    margin:6px;
+    display:inline-block;
+    border-radius:8px;
+    font-size:14px;
+}
+
+a{
+    color:#9b5cff;
+    text-decoration:none;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container header">
+<h1>Hudson Neves</h1>
+<p>Gerente de Projetos Sênior | PMO & Governança | PMP® | PSM I</p>
+
+<p>
+Gestão Ágil Híbrida | Scrum | Kanban | SAFe | PMBOK | UX & Produto
+</p>
+
+<p>
+<a href="https://www.linkedin.com/in/hudson-neves/" target="_blank">
+LinkedIn
+</a>
+</p>
+</div>
+
+<div class="container">
+<h2>Sobre</h2>
+<p>
+Profissional com mais de 20 anos em gestão de projetos estratégicos,
+PMO e governança em ambientes regulados, integrando práticas ágeis
+e preditivas para entrega de valor e previsibilidade executiva.
+</p>
+
+<h2>Agilidade Híbrida & SAFe</h2>
+<p>
+Aplicação prática de Scrum, Kanban e SAFe em ambientes corporativos,
+unindo governança institucional, planejamento estruturado e entrega iterativa.
+</p>
+
+<div>
+<span class="tag">Scrum</span>
+<span class="tag">Kanban</span>
+<span class="tag">SAFe</span>
+<span class="tag">PMBOK</span>
+</div>
+
+<h2>UX, Análise de Negócio & Front-end</h2>
+<p>
+Aperfeiçoamento contínuo em UX Strategy, engenharia de requisitos
+e desenvolvimento Front-end com React, fortalecendo a integração
+entre gestão, produto digital e experiência do usuário.
+</p>
+
+<div>
+<span class="tag">UX</span>
+<span class="tag">Figma</span>
+<span class="tag">React</span>
+<span class="tag">Análise de Requisitos</span>
+</div>
+
+<h2>Ferramentas</h2>
+<div>
+<span class="tag">Jira</span>
+<span class="tag">Project</span>
+<span class="tag">Workspace</span>
+<span class="tag">Confluence</span>
+<span class="tag">ClickUp</span>
+<span class="tag">Bizagi</span>
+</div>
+
+<h2>Contato</h2>
+<p>Email: hudsonsneves@gmail.com</p>
+<p>Brasília - DF</p>
+
+</div>
+
+</body>
+</html>
