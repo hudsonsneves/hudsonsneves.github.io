@@ -511,6 +511,62 @@
     color: var(--muted);
   }
 
+  /* CLIENTS LOGOS */
+  .clients-section {
+    background: var(--dark);
+  }
+
+  .clients-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-top: 50px;
+  }
+
+  .client-logo {
+    background: rgba(255,255,255,0.02);
+    border: 1px solid rgba(255,255,255,0.05);
+    padding: 30px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 120px;
+    transition: all 0.3s;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .client-logo::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, rgba(201,168,76,0.05), transparent);
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+
+  .client-logo:hover {
+    border-color: rgba(201,168,76,0.3);
+    transform: translateY(-4px);
+  }
+
+  .client-logo:hover::before {
+    opacity: 1;
+  }
+
+  .client-logo svg {
+    width: 100%;
+    height: auto;
+    max-height: 60px;
+    filter: grayscale(1) brightness(0.6);
+    transition: all 0.3s;
+  }
+
+  .client-logo:hover svg {
+    filter: grayscale(0) brightness(1);
+  }
+  
   /* CONTACT */
   .contact-section {
     background: var(--dark2);
