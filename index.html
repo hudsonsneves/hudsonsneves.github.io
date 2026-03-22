@@ -75,7 +75,8 @@
     height: 44px;
     width: auto;
     display: block;
-    mix-blend-mode: screen;
+    
+    filter: brightness(1.1);
   }
   
   .nav-links {
@@ -553,20 +554,32 @@
     transition: all 0.3s;
   }
 
+  .client-logo {
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 8px;
+    padding: 16px 20px;
+    transition: all 0.3s ease;
+  }
+
+  .client-logo:hover {
+    background: rgba(255,255,255,0.12);
+    border-color: rgba(201,168,76,0.4);
+    transform: translateY(-4px);
+  }
+
   .client-logo img {
-    height: 52px;
+    height: 48px;
     width: auto;
-    max-width: 140px;
+    max-width: 130px;
     object-fit: contain;
-    mix-blend-mode: multiply;
-    opacity: 0.9;
-    transition: all 0.35s ease;
+    opacity: 0.85;
+    transition: all 0.3s ease;
+    mix-blend-mode: normal;
   }
 
   .client-logo:hover img {
-    mix-blend-mode: multiply;
     opacity: 1;
-    transform: scale(1.1);
   }
   
   /* CONTACT */
@@ -981,7 +994,7 @@ Experiência na entrega de MVP de projeto estratégico de AI com BI no Vale do S
 
       <!-- MCTI -->
       <div class="client-logo">
-        <img src="https://raw.githubusercontent.com/hudsonsneves/mundo-hudson-full/main/assets/clientes/MCTI-ICON.jpg" alt="MCTI – Ministério de Ciência e Tecnologia" loading="lazy" />
+        <img src="https://raw.githubusercontent.com/hudsonsneves/mundo-hudson-full/main/assets/clientes/MCTI-ICON.png" alt="MCTI – Ministério de Ciência e Tecnologia" loading="lazy" />
       </div>
 
       <!-- FNDE -->
@@ -991,12 +1004,12 @@ Experiência na entrega de MVP de projeto estratégico de AI com BI no Vale do S
 
       <!-- TERRACAP -->
       <div class="client-logo">
-        <img src="https://raw.githubusercontent.com/hudsonsneves/mundo-hudson-full/main/assets/clientes/TERRACAP-ICON.jpg" alt="Terracap" loading="lazy" />
+        <img src="https://raw.githubusercontent.com/hudsonsneves/mundo-hudson-full/main/assets/clientes/TERRACAP-ICON.png" alt="Terracap" loading="lazy" />
       </div>
 
       <!-- MINISTÉRIO DA CIDADANIA -->
       <div class="client-logo">
-        <img src="https://raw.githubusercontent.com/hudsonsneves/mundo-hudson-full/main/assets/clientes/CIDADANIA-ICON.jpg" alt="Ministério da Cidadania" loading="lazy" />
+        <img src="https://raw.githubusercontent.com/hudsonsneves/mundo-hudson-full/main/assets/clientes/CIDADANIA-ICON.png" alt="Ministério da Cidadania" loading="lazy" />
       </div>
 
       <!-- BRB -->
@@ -1021,12 +1034,12 @@ Experiência na entrega de MVP de projeto estratégico de AI com BI no Vale do S
 
       <!-- BRADESCO SEGUROS -->
       <div class="client-logo">
-        <img src="https://raw.githubusercontent.com/hudsonsneves/mundo-hudson-full/main/assets/clientes/BRADESCO-SEGUROS0ICON.jpg" alt="Bradesco Seguros" loading="lazy" />
+        <img src="https://raw.githubusercontent.com/hudsonsneves/mundo-hudson-full/main/assets/clientes/BRADESCO-SEGUROS0ICON.png" alt="Bradesco Seguros" loading="lazy" />
       </div>
 
       <!-- MINISTÉRIO DA DEFESA -->
       <div class="client-logo">
-        <img src="https://raw.githubusercontent.com/hudsonsneves/mundo-hudson-full/main/assets/clientes/MD-ICON.jpg" alt="MD – Ministério da Defesa" loading="lazy" />
+        <img src="https://raw.githubusercontent.com/hudsonsneves/mundo-hudson-full/main/assets/clientes/MD-ICON.png" alt="MD – Ministério da Defesa" loading="lazy" />
       </div>
 
     </div>
@@ -1067,7 +1080,7 @@ Experiência na entrega de MVP de projeto estratégico de AI com BI no Vale do S
 <footer>
   <p>© 2026 Hudson Neves — Todos os direitos reservados</p>
   <div class="footer-logo">
-    <img src="https://raw.githubusercontent.com/hudsonsneves/mundo-hudson-full/main/assets/LOGO2.png" alt="" style="height:40px;width:auto;display:block;mix-blend-mode:screen;">
+    <img src="https://raw.githubusercontent.com/hudsonsneves/mundo-hudson-full/main/assets/LOGO2.png" alt="" style="height:40px;width:auto;display:block;">
   </div>
 </footer>
 <script>
