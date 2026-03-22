@@ -551,31 +551,23 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 0.3s;
-  }
-
-  .client-logo {
-    background: rgba(255,255,255,0.06);
-    border: 1px solid rgba(255,255,255,0.08);
-    border-radius: 8px;
-    padding: 16px 20px;
-    transition: all 0.3s ease;
+    background: none;
+    border: none;
+    padding: 0;
+    transition: transform 0.3s ease;
   }
 
   .client-logo:hover {
-    background: rgba(255,255,255,0.12);
-    border-color: rgba(201,168,76,0.4);
-    transform: translateY(-4px);
+    transform: scale(1.1);
   }
 
   .client-logo img {
-    height: 48px;
+    height: 56px;
     width: auto;
-    max-width: 130px;
+    max-width: 150px;
     object-fit: contain;
-    opacity: 0.85;
-    transition: all 0.3s ease;
-    mix-blend-mode: normal;
+    opacity: 0.9;
+    transition: opacity 0.3s ease;
   }
 
   .client-logo:hover img {
